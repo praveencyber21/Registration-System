@@ -40,8 +40,8 @@ body{
     bottom: -80px;
 }
 form{
-    height: 520px;
-    width: 400px;
+    height: 600px;
+    width: 450px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -75,12 +75,12 @@ label{
 }
 input{
     display: block;
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-color: rgba(255,255,255,0.07);
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 8px;
+    margin-top: 2px;
     font-size: 14px;
     font-weight: 300;
 }
@@ -88,7 +88,7 @@ input{
     color: #e5e5e5;
 }
 button{
-    margin-top: 50px;
+    margin-top: 14px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
