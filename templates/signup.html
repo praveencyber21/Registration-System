@@ -18,6 +18,14 @@
     </div>
     <form action="" method="post">
         {% csrf_token %} 
+        {% if messages %}
+            {% for message in messages %}
+                <div class='alert'>
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif%}
+       
         <h3>Signup Here</h3>
 
         <label for="username">Username</label>
